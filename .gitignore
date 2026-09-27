@@ -1,5 +1,5 @@
- .env
-   .venv/
-   __pycache__/
-   qdrant_storage/
-   *.pyc
+.env
+.venv/
+__pycache__/
+qdrant_storage/
+*.pyc

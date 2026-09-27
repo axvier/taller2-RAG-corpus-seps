@@ -1,0 +1,1 @@
+Python 3.12.x (el entorno con 3.14 falló por falta de wheels de scikit-network)
