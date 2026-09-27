@@ -54,7 +54,7 @@ ingesta: nimbus_remoto.md: 1 página(s), 296 caracteres útiles → 1 fragmento(
 ingesta: nimbus_vacaciones.md: 1 página(s), 363 caracteres útiles → 1 fragmento(s)
 fragmentos en el índice: 3
 
-Pregunta: ¿cuál es la política de gatos?
+Pregunta: ¿cuál es la política de mascotas?
   0.075  nimbus_gastos.md / nimbus_gastos-0000  '# Política de reembolso de gastos de NimbusSoft Los gastos d'
   0.039  nimbus_remoto.md / nimbus_remoto-0000  '# Política de trabajo remoto de NimbusSoft El trabajo remoto'
   -0.000  nimbus_vacaciones.md / nimbus_vacaciones-0000  '# Política de vacaciones de NimbusSoft Los empleados a tiemp'
@@ -64,4 +64,3 @@ Pregunta: ¿qué exige el instructivo de prácticas de campo sobre el seguro de 
   0.171  nimbus_gastos.md / nimbus_gastos-0000  '# Política de reembolso de gastos de NimbusSoft Los gastos d'
   0.099  nimbus_vacaciones.md / nimbus_vacaciones-0000  '# Política de vacaciones de NimbusSoft Los empleados a tiemp'
 
-  

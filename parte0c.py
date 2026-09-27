@@ -17,7 +17,7 @@ p.index(chunks)
 print(f"fragmentos en el índice: {len(chunks)}\n")
 
 preguntas = [
-    "¿cuál es la política de gatos?",
+    "¿cuál es la política de mascotas?",
     "¿qué exige el instructivo de prácticas de campo sobre el seguro de accidentes?",
 ]
 for q in preguntas:
