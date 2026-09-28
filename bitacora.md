@@ -697,4 +697,12 @@ El valor de 0,70 reportado anteriormente no evaluaba la precisión de la recuper
 
 ## Pregunta 2 — Una pregunta global y GraphRAG
 
+¿Qué tablas del Manual de Tablas de Información se usan en más de una estructura, y cuáles son?
+
 Un RAG basado en embeddings está optimizado para consultas locales donde la respuesta reside concentrada en pocos fragmentos. En este caso, la información está dispersa en cientos de los 689 chunks del corpus de la SEPS. Al consultar al RAG vectorial, la búsqueda trae únicamente los k vecinos sintácticamente más parecidos a la pregunta, ofreciendo una visión parcial que el modelo de lenguaje intenta completar mediante alucinación o resúmenes incompletos (modo de falla observado en nuestra pregunta multi-chunk 6).   Solución con GraphRAG: GraphRAG aborda esto mapeando el corpus como un grafo de conocimiento. Durante la ingesta, extrae entidades (Estructuras, Tablas, Campos) y sus relaciones explícitas ("Estructura C01 UTILIZA Tabla 13"), agrupando el grafo en comunidades temáticas y pregenerando resúmenes sintéticos de cada nodo. Al recibir la consulta global, agrupa las respuestas de estas comunidades estructuradas, permitiendo responder con precisión sobre relaciones transversales a todo el dominio normativo.
+
+# Reproducibilidad
+1. requirements.txt fijado con uv pip freeze el 2026-09-27.
+2. El peso del corpus y la decisión que tomaste (incluido o no, y por qué).
+3. El resultado de la búsqueda de claves: Búsqueda de claves: sin coincidencias fuera de .env; .env ignorado por .gitignore.
+
